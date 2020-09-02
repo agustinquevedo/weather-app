@@ -11,7 +11,7 @@ import {
     RAIN,
     SNOW,
     WINDY,
-} from '../const/weather';
+} from '../../../const/weather';
 
 const icons = {
     [CLOUD]: faCloud,
