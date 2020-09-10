@@ -25,9 +25,9 @@ const icons = {
 const getFontAwesomeIcon = weatherState => {
     const icon = icons[weatherState]
     if (icon)
-        return <FontAwesomeIcon icon={icon} size="lg"/>
+        return <FontAwesomeIcon icon={icon} size="lg" className="weather-icon"/>
     else 
-        return <FontAwesomeIcon icon={faSun} size="lg"/>
+        return <FontAwesomeIcon icon={faSun} size="lg" className="weather-icon"/>
 };
 
 const WeatherTemperature = ({temperature, weatherState}) => {
@@ -42,7 +42,7 @@ const WeatherTemperature = ({temperature, weatherState}) => {
 // PropTypes validation
 WeatherTemperature.propTypes = {
     temperature: PropTypes.number.isRequired,
-    weatherState: PropTypes.string.isRequired
+    weatherState: PropTypes.symbol.isRequired
 }
 
 export default WeatherTemperature;

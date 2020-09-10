@@ -1,11 +1,11 @@
-export const CLOUD = "cloud";
+export const CLOUD = "faCloud";
 
-export const CLOUDY = "cloudy";
+export const CLOUDY = "faCloudy";
 
-export const SUNNY = "sunny";
+export const SUNNY = "faSunny";
 
-export const RAIN = "rain";
+export const RAIN = "faCloudRain";
 
-export const SNOW = "snow";
+export const SNOW = "faSnowflake";
 
-export const WINDY = "windy";
+export const WINDY = "faWind";
